@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boutique Bliss</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Georgia', serif;
+    }
+
+    body {
+      background-color: #fffaf0;
+      color: #4b2e2e;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background-color: #fceae8;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    nav h1 {
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #4b2e2e;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #d67d8a;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 100px 40px;
+      background: linear-gradient(to bottom right, #fceae8, #fffaf0);
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      max-width: 600px;
+    }
+
+    .hero a {
+      background-color: #450404;
+      color: white;
+      padding: 12px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .hero a:hover {
+      background-color: #d67d8a;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1>Chérie Boutique</h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Collections</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h2>Timeless Fashion. Crafted with Love.</h2>
+    <p>Discover curated styles that blend elegance and modern trends. Every piece is a story stitched with passion.</p>
+    <a href="#">Shop Now</a>
+  </section>
+
+</body>
+</html>
